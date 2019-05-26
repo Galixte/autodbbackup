@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'AUTO_DB_BACKUP_COPIES'					=> 'Sauvegardes stockées',
+	'AUTO_DB_BACKUP_COPIES'					=> 'Nombre de sauvegardes conservées',
 	'AUTO_DB_BACKUP_COPIES_EXPLAIN'			=> 'Permet de saisir le nombre de sauvegardes qui seront stockées sur le serveur.<br />Saisir 0 pour désactiver cette limite d’archivage, ainsi toutes les sauvegardes seront stockées sur le serveur.',
 	'AUTO_DB_BACKUP_ENABLE'					=> 'Activer la sauvegarde automatique de la base de données',
 	'AUTO_DB_BACKUP_ENABLE_EXPLAIN'			=> 'Permet d’activer ou de désactiver les sauvegardes automatiques de la base de données.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'AUTO_DB_BACKUP_SETTINGS_EXPLAIN'		=> 'Sur cette page il est possible de configurer les paramètres par défaut de la sauvegarde automatique de la base de données. Selon la configuration du serveur utilisé, il sera possible de compresser la base de données.<br />Toutes les sauvegardes seront stockées dans le répertoire <samp>./store/</samp>. La procédure de restauration est disponible depuis le page <em>Restaurer</em>.',
 	'AUTO_DB_BACKUP_TIME'					=> 'Prochaine date de la sauvegarde',
 	'AUTO_DB_BACKUP_TIME_ERROR'				=> 'La date de la <em>prochaine sauvegarde</em> est incorrecte. La date doit être à venir.',
-	'AUTO_DB_BACKUP_TIME_EXPLAIN'			=> 'Permet de spécifier la date de la prochaine sauvegarde de la base de données.<br /><strong>Note</strong> : La date droit être à venir.',
+	'AUTO_DB_BACKUP_TIME_EXPLAIN'			=> 'Permet de spécifier la date de la prochaine sauvegarde de la base de données.<br /><strong>Note</strong> : La date doit être à venir.',
 
 	'CLICK_SELECT'							=> 'Cliquer dans la boite de texte pour sélectionner la date & l’heure',
 	'DATE_FORMAT_ERROR'						=> 'Le format de la date/heure de la prochaine sauvegarde est incorrect.',
