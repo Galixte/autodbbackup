@@ -69,6 +69,21 @@ $lang = array_merge($lang, array(
 	),
 ));
 
+// Date/time picker
+$lang = array_merge($lang, array(
+	'CLOSE_TEXT'			=> 'Terminé',
+	'CURRENT_TEXT_DATE'		=> 'Maintenant',
+	'HOUR_TEXT'				=> 'Heures',
+	'MINUTE_TEXT'			=> 'Minutes',
+	'NEXT_TEXT'				=> 'Suivant »',
+	'PREV_TEXT'				=> '« Précédent',
+	'TIME_TEXT'				=> 'Heure',
+
+	// Translators note: retain the format of [" "] as they are creating JSON compatible arrays
+	'DAY_NAMES_MIN'			=> '["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"]',
+	'MONTH_NAMES' 			=> '["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"]',
+));
+
 // Donate
 $lang = array_merge($lang, array(
 	'DONATE'					=> 'Donation',
